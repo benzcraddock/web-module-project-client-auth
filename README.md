@@ -34,20 +34,20 @@ Each friend object has the format:
 
 ## Instructions
 ### Task 1: Project Set Up
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-client-auth`
-* [ ] Download project dependencies by running `npm install`
-* [ ] cd into the `server` folder.
-* [ ] Start up the app using `npm start` to start the server.
-* [ ] cd into the `friends` folder.
-* [ ] Run `npm start` to start the client code.
+* [X] Create a forked copy of this project.
+* [X] Clone your OWN version of the repository in your terminal
+* [X] cd into the project base directory `cd web-module-project-client-auth`
+* [X] Download project dependencies by running `npm install`
+* [X] cd into the `server` folder.
+* [X] Start up the app using `npm start` to start the server.
+* [X] cd into the `friends` folder.
+* [X] Run `npm start` to start the client code.
 
 ### Task 2: Project Requirements
 #### Build the login component
-* [ ] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
-* [ ] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
-* [ ] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
+* [X] Use the [mockup provided](./login_mockup.png) to build out a simple login component.
+* [X] In `App.js`, add a route to allow this component to be displayed when navigating to `/` or `/login`
+* [] When submitting your login form, save the token returned to localStorage and redirect to the FriendsList route.
 
 #### Build the friendslist component
 * [ ] Use the [mockup provided](./friendslist_mockup.png) to build out a simple list component made to display all friends.
