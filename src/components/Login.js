@@ -6,17 +6,17 @@ const Login = () => {
       <h1>LOGIN</h1>
       <form>
         <div>
-          <label htmlFor="username">Username</label>
+          <label htmlFor="username">USERNAME</label>
           <input id="username"/>
         </div>
 
         <div>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">PASSWORD</label>
           <input id="password" type="password"/>
         </div>
         
         <div>
-        <button>Submit</button>
+        <button>SUBMIT</button>
         </div>
 
       </form>
