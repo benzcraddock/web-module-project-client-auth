@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+
+// axiosWithAuth
+import axiosWithAuth from '../utils/axiosWithAuth';
 
 const FriendList = () => {
   const [friends, setFriends] = useState([]);
@@ -7,11 +9,7 @@ const FriendList = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
 
-    axios.get('http://localhost:9000/api/friends', {
-      headers: {
-        authorization: token
-      }
-    })
+    axiosWithAuth().get('/friends')
       .then(res => {
         setFriends(res.data);
       })
