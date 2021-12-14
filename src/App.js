@@ -2,23 +2,9 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 
-const Login = () => {
-  return (
-    <h2>LOGIN.</h2>
-  )
-}
-
-const FriendList = () => {
-  return (
-    <h2>FRIENDLIST.</h2>
-  )
-}
-
-const AddFriend = () => {
-  return (
-    <h2>ADDFRIEND.</h2>
-  )
-}
+import Login from './components/Login';
+import FriendList from './components/FriendList';
+import AddFriend from './components/AddFriend';
  
 function App() {
   return (
