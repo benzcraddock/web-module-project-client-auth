@@ -13,8 +13,8 @@ function App() {
         <header>
           <h2>FRIENDS DATABASE</h2>
           <Link className="link" to="login">LOGIN</Link>
-          <Link className="link" to="friend">FRIEND LIST</Link>
-          <Link className="link" to="friend/add">ADD FRIEND</Link>
+          <Link className="link" to="friends">FRIEND LIST</Link>
+          <Link className="link" to="friends/add">ADD FRIEND</Link>
           <Link className="link" to="logout">LOGOUT</Link>
 
         </header>
@@ -26,11 +26,11 @@ function App() {
           <Redirect to="/"/>
         </Route>
 
-        <Route exact path="/friend">
+        <Route exact path="/friends">
           <FriendList/>
         </Route>
 
-        <Route exact path="/friend/add">
+        <Route exact path="/friends/add">
           <AddFriend/>
         </Route>
       </div>
