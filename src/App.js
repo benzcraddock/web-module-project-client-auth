@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Link} from 'react-router-dom';
 
 import Login from './components/Login';
 import FriendList from './components/FriendList';
@@ -10,6 +10,14 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <header>
+          <h2>FRIENDS DATABASE</h2>
+          <Link className="link" to="login">LOGIN</Link>
+          <Link className="link" to="friend">FRIEND LIST</Link>
+          <Link className="link" to="friend/add">ADD FRIEND</Link>
+          <Link className="link" to="logout">LOGOUT</Link>
+
+        </header>
         <Route exact path="/">
           <Login/>
         </Route>
